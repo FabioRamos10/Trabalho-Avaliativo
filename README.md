@@ -1,4 +1,4 @@
-# Trabalho-Avaliativo
+<h1 align="center">Trabalho Avaliativo</h1>
 Trabalho Avaliativo de Programação para Dispositivos Móveis - Aplicação de Compras com Abas.
 
 Instituto Federal de Goiás IFG – Campus Uruaçu
@@ -19,11 +19,11 @@ Se esta for a sua primeira vez utilizando o projeto, siga os passos abaixo:
 2. Abra a pasta do projeto em um editor de código, como o Visual Studio Code.
 3. No terminal, dentro da pasta do projeto, execute o comando abaixo para instalar as dependências necessárias:
 
-   npm install
+       npm install
 
 4. Após a instalação das dependências, execute o seguinte comando para iniciar o projeto:
 
-   ionic serve
+       ionic serve
 
 5. O navegador padrão será aberto automaticamente exibindo a aplicação com as abas disponíveis.
 
@@ -31,7 +31,7 @@ Se esta for a sua primeira vez utilizando o projeto, siga os passos abaixo:
 
 Se você já utilizou o projeto anteriormente e as dependências já estão instaladas, basta abrir o terminal na pasta do projeto e executar:
 
-   ionic serve
+    ionic serve
 
 
 A aplicação será iniciada normalmente.
