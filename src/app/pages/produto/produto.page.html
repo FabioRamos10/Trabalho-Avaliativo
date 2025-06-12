@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/inicio"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ produto?.descricao }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="produto">
+  <ion-card>
+    <ion-card-content>
+      <h2><strong>De <s> R$ {{ produto.valor | number:'1.2-2'}}</s></strong></h2>
+      <h2><strong>Por R$ {{ produto.desconto | number:'1.2-2'}}</strong></h2>
+      <br>
+      <p>Descrição: {{ produto.detalhes }}</p>
+      <br>
+
+      <ion-item>
+        <ion-label position="stacked">Quantidade</ion-label>
+        <ion-input
+          type="number"
+          min="1"
+          [(ngModel)]="quantidade"
+          required
+        ></ion-input>
+      </ion-item>
+      <br>
+      <br>
+
+      <ion-button expand="full" (click)="comprar()">Comprar Produto</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

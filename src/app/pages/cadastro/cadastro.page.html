@@ -1,0 +1,52 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Cadastro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Cadastro</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <form>
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input [(ngModel)]="cliente.nome" name="nome" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Endereço</ion-label>
+      <ion-input [(ngModel)]="cliente.endereco" name="endereco" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">CEP</ion-label>
+      <ion-input [(ngModel)]="cliente.cep" name="cep" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Cidade</ion-label>
+      <ion-input [(ngModel)]="cliente.cidade" name="cidade" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Bairro</ion-label>
+      <ion-input [(ngModel)]="cliente.bairro" name="bairro" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Estado</ion-label>
+      <ion-input [(ngModel)]="cliente.estado" name="estado" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Telefone</ion-label>
+      <ion-input [(ngModel)]="cliente.telefone" name="telefone" required></ion-input>
+    </ion-item>
+
+    <ion-button expand="full" (click)="salvar()">Salvar dados</ion-button>
+  </form>
+</ion-content>

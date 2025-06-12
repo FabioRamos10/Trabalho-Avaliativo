@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Conta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Conta</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ng-container *ngIf="clienteCadastrado; else semCadastro">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Dados do Cliente</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p><strong>Nome:</strong> {{ cliente.nome }}</p>
+        <p><strong>Endereço:</strong> {{ cliente.endereco }}</p>
+        <p><strong>CEP:</strong> {{ cliente.cep }}</p>
+        <p><strong>Cidade:</strong> {{ cliente.cidade }}</p>
+        <p><strong>Bairro:</strong> {{ cliente.bairro }}</p>
+        <p><strong>Estado:</strong> {{ cliente.estado }}</p>
+        <p><strong>Telefone:</strong> {{ cliente.telefone }}</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-button expand="full" (click)="editarOuCadastrar()">
+      Editar Dados
+    </ion-button>
+  </ng-container>
+
+  <ng-template #semCadastro>
+    <ion-button expand="full" (click)="editarOuCadastrar()">
+      Cadastrar Cliente
+    </ion-button>
+  </ng-template>
+</ion-content>
