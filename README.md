@@ -9,7 +9,9 @@ Professor: Rogerio Nauderer
 
 Aluno: Fábio Filho Eterno Ramos
 
-# Como rodar o projeto
+
+
+<h1 align="center">Como rodar o projeto</h1>
 
 ## Primeira vez utilizando o projeto
 
