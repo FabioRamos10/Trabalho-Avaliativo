@@ -2,8 +2,11 @@
 Trabalho Avaliativo de Programação para Dispositivos Móveis - Aplicação de Compras com Abas.
 
 Instituto Federal de Goiás IFG – Campus Uruaçu
+
 Programação de Dispositíveis Móveis
+
 Professor: Rogerio Nauderer
+
 Aluno: Fábio Filho Eterno Ramos
 
 # Como rodar o projeto
