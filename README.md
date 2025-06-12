@@ -1,5 +1,4 @@
 <h1 align="center">Trabalho Avaliativo</h1>
-Trabalho Avaliativo de Programação para Dispositivos Móveis - Aplicação de Compras com Abas.
 
 Instituto Federal de Goiás IFG – Campus Uruaçu
 
@@ -37,3 +36,7 @@ Se você já utilizou o projeto anteriormente e as dependências já estão inst
 
 
 A aplicação será iniciada normalmente.
+
+## Observação
+
+A aplicação está rodando novamente. Caso ocorra alguma falha, reinicie o servidor e tente novamente.
