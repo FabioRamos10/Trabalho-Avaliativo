@@ -39,4 +39,5 @@ A aplicação será iniciada normalmente.
 
 ## Observação
 
-A aplicação está rodando novamente. Caso ocorra alguma falha, reinicie o servidor e tente novamente.
+A aplicação está rodando corretamente, com todas as rotas e funcionalidades funcionando sem falhas.  
+Caso ocorra alguma falha, reinicie o servidor e tente novamente.
