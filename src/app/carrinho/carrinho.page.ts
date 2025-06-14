@@ -81,7 +81,7 @@ export class CarrinhoPage {
 
       await alert.present();
 
-      // Redirecionar após o usuário fechar o alerta
+      
       await alert.onDidDismiss();
       this.router.navigate(['/cadastro']);
       return;
