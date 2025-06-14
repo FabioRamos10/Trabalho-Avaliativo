@@ -81,7 +81,6 @@ export class CarrinhoPage {
 
       await alert.present();
 
-      
       await alert.onDidDismiss();
       this.router.navigate(['/cadastro']);
       return;
