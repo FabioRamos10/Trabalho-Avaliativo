@@ -13,7 +13,6 @@ export class CarrinhoService {
   frete = 21.54;
 
   adicionarProduto(produto: Produto, quantidade: number = 1) {
-    // Verifica se o produto já está no carrinho
     const existente = this.produtos.find(p => p.codigo === produto.codigo);
 
     if (existente) {
